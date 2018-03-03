@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Webpack Starter Kit</title>
+<link href="styles.css" rel="stylesheet"></head>
+
+<body>
+  <h3>Создать базовый класс Shape, который принимает значения цвета и координат x и y: color, initX, initY.</h3>
+  <h3>Создать методы класса Shape:</h3>
+<ul>
+  <li>getColor() - возвращает значение цвета.</li>
+  <li>setColor(val) - получает и записывает новое значение цвета.</li>
+  <li>getCoords() - возвращает координаты x и y.</li>
+  <li>moveTo(newX, newY) - принимает 2 параметра, новые значения для x и y и записывает их.</li>
+</ul>
+<h3>Создать класс Rectangle который расширяет класс Shape, принимая значения цвета и начальных координат, как его родительский класс, и еще значение ширины и высоты сторон initWidth и initHeight:</h3>
+<h3>Создать методы класса Rectangle:</h3>
+<ul>
+  <li>setWidth(newWidth)и setHeight(newHeight) - получают ширину/высоту и записывают новые значения.</li>
+  <li>getDims() - метод который возвращает значения width и height.</li>
+  <li>draw() - метод который имитирует рисование прямоугольника используя методы Shape и Rectangle, выводя в консоль браузера следующей информации.</li>
+</ul>
+<h3>Создать класс Circle который расширяет класс Shape, принимая значения цвета и начальных координат, как его родительский класс, и еще значение радиуса initRadius:</h3>
+<h3>Создать методы класса Circle:</h3>
+<ul>
+  <li>getRadius() - возвращает текущее значение радиуса.</li>
+  <li>setRadius(val) - получает значение и присваивает его радиусу.</li>
+  <li>draw() - метод который имитирует рисование круга используя методы Shape и Circle, выводя в консоль браузера следующей информации.</li>
+</ul>
+
+       <p><b>ОТКРОЙТЕ КОНСОЛЬ</b></p>
+        <H2>Class Shape</H2>
+        <input type="text" name="" id="shape-color" placeholder="Установить цвет:">
+        <br>
+        <input type="text" name="" id="shape-x" placeholder="Установить  координаты X">
+        <br>  
+        <input type="text" name="" id="shape-y" placeholder="Установить координаты Y:">
+        <br>
+        <button id="shape-save">Shape</button>
+    
+        <H2>Class Rectangle</H2>
+      
+        <input type="text" name="" id="width" placeholder="Установить ширину:">
+        <br>
+        <input type="text" name="" id="height" placeholder="Установить высоту: ">
+        <br>
+        <button id="rect-save">Rectangle</button>
+        <div id="rect-out"></div>
+        <H2>Class Circle</H2>
+        <input type="text" name="" id="radius" placeholder="Задать радиус:">
+        <br>
+        <button id="circle-save">Circle</button>
+        <div id="circle-out"></div>
+    
+ 
+    <script src="7.js"></script>
+<script type="text/javascript" src="app.js"></script></body>
+
+</html>
